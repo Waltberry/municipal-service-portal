@@ -63,3 +63,4 @@ C:\dev\municipal-service-portal\backend\src\Municipal.Infrastructure\obj\Debug\n
 C:\dev\municipal-service-portal\backend\src\Municipal.Infrastructure\obj\Debug\net10.0\Municipal.Infrastructure.pdb
 C:\dev\municipal-service-portal\backend\src\Municipal.Infrastructure\obj\Debug\net10.0\Municipal.Infrastructure.genruntimeconfig.cache
 C:\dev\municipal-service-portal\backend\src\Municipal.Infrastructure\obj\Debug\net10.0\ref\Municipal.Infrastructure.dll
+C:\dev\municipal-service-portal\backend\src\Municipal.Infrastructure\obj\Debug\net10.0\Municipal.Infrastructure.sourcelink.json

@@ -9,8 +9,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("frontend", p =>
-        p.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:5173"));
+    options.AddPolicy("AllowFrontend", p =>
+        p.WithOrigins("http://localhost:5173")
+         .AllowAnyHeader()
+         .AllowAnyMethod());
 });
 
 builder.Services.AddDbContext<MunicipalDbContext>(options =>
@@ -24,7 +26,9 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseCors("frontend");
+app.UseCors("AllowFrontend");
+// app.UseCors("frontend");
+
 
 app.MapControllers();
 

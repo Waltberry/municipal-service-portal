@@ -1,17 +1,20 @@
-const API_BASE = "http://localhost:5000"; // adjust to your .NET URL
+const baseUrl = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:5050";
 
-export async function apiGet<T>(path: string): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`);
-  if (!res.ok) throw new Error(await res.text());
-  return res.json();
-}
-
-export async function apiPost<T>(path: string, body: unknown): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
+export async function api<T>(path: string, init?: RequestInit): Promise<T> {
+  const res = await fetch(`${baseUrl}${path}`, {
+    headers: {
+      "Content-Type": "application/json",
+      ...(init?.headers ?? {}),
+    },
+    ...init,
   });
-  if (!res.ok) throw new Error(await res.text());
-  return res.json();
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`API ${res.status}: ${text}`);
+  }
+
+  // 204 support
+  if (res.status === 204) return undefined as T;
+  return (await res.json()) as T;
 }

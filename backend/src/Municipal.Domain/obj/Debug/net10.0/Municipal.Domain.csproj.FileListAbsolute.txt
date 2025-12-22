@@ -9,3 +9,4 @@ C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\M
 C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\refint\Municipal.Domain.dll
 C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.pdb
 C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\ref\Municipal.Domain.dll
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.sourcelink.json

@@ -13,3 +13,4 @@ C:\dev\municipal-service-portal\backend\src\Municipal.Application\obj\Debug\net1
 C:\dev\municipal-service-portal\backend\src\Municipal.Application\obj\Debug\net10.0\refint\Municipal.Application.dll
 C:\dev\municipal-service-portal\backend\src\Municipal.Application\obj\Debug\net10.0\Municipal.Application.pdb
 C:\dev\municipal-service-portal\backend\src\Municipal.Application\obj\Debug\net10.0\ref\Municipal.Application.dll
+C:\dev\municipal-service-portal\backend\src\Municipal.Application\obj\Debug\net10.0\Municipal.Application.sourcelink.json
