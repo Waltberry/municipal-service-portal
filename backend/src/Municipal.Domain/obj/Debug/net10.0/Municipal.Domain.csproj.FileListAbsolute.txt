@@ -1,0 +1,11 @@
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\bin\Debug\net10.0\Municipal.Domain.deps.json
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\bin\Debug\net10.0\Municipal.Domain.dll
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\bin\Debug\net10.0\Municipal.Domain.pdb
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.AssemblyInfoInputs.cache
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.AssemblyInfo.cs
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.csproj.CoreCompileInputs.cache
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.dll
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\refint\Municipal.Domain.dll
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\Municipal.Domain.pdb
+C:\dev\municipal-service-portal\backend\src\Municipal.Domain\obj\Debug\net10.0\ref\Municipal.Domain.dll
